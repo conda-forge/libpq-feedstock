@@ -11,6 +11,18 @@ Summary: The postgres runtime libraries and utilities (not the server itself)
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libpq-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libpq-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/libpq-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libpq-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libpq-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libpq-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libpq/badges/version.svg)](https://anaconda.org/conda-forge/libpq)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libpq/badges/downloads.svg)](https://anaconda.org/conda-forge/libpq)
+
 Installing libpq
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `libpq` available on your platform
 ```
 conda search libpq --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libpq-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libpq-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libpq-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libpq-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libpq-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libpq-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libpq/badges/version.svg)](https://anaconda.org/conda-forge/libpq)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libpq/badges/downloads.svg)](https://anaconda.org/conda-forge/libpq)
 
 
 Updating libpq-feedstock
