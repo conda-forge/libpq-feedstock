@@ -46,7 +46,7 @@ test:
 
 about:
   home: http://www.postgresql.org/
-  license: PostgreSQL license (http://www.postgresql.org/about/licence/)
+  license: PostgreSQL
   summary: The postgres runtime libraries and utilities (not the server itself)
 
 extra:
