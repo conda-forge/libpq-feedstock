@@ -5,11 +5,10 @@ package:
   version: {{ version }}
 
 build:
-  number: 3
+  number: 4
   features:
     - vc9               # [win and py27]
-    - vc10              # [win and py34]
-    - vc14              # [win and py35]
+    - vc14              # [win and py >= 35]
   always_include_files:
     - lib/libpq.so.5.8        # [linux]
     - lib/libpq.so.5          # [linux]
@@ -25,14 +24,13 @@ requirements:
   build:
     - python  # [win]
     - vc   9   # [win and py27]
-    - vc  10   # [win and py34]
-    - vc  14   # [win and py35]
+    - vc  14   # [win and py >= 35]
     - postgresql  {{ version }}
   run:
     - vc   9   # [win and py27]
-    - vc  10   # [win and py34]
-    - vc  14   # [win and py35]
+    - vc  14   # [win and py >= 35]
     - openssl 1.0.*
+    - krb5
 
 test:
   commands:
@@ -48,7 +46,7 @@ test:
 
 about:
   home: http://www.postgresql.org/
-  license: PostgreSQL license (http://www.postgresql.org/about/licence/)
+  license: PostgreSQL
   summary: The postgres runtime libraries and utilities (not the server itself)
 
 extra:
